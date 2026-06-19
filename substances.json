@@ -1,0 +1,86 @@
+{
+    "category": [
+        {"id": "etoh","label": "Alcohol"},
+        {"id": "cb","label": "Cannabis"},
+        {"id": "nic","label": "Nicotine"},
+        {"id": "stim","label": "Stimulants"},
+        {"id": "coc","label": "Cocaine"},
+        {"id": "opi","label": "Opioids"},
+        {"id": "hall","label": "Hallucinogens"},
+        {"id": "diss","label": "Dissociatives"},
+        {"id": "inh","label": "Inhalants"},
+        {"id": "sdh","label": "Sedatives, Hypnotics or Anxiolytics"},
+        {"id": "misc","label": "Miscellaneous"}
+    ],
+    "substance": {
+        "etoh": [
+            {"label": "Alcohol", "units": ["standard drinks"]}
+        ],
+        "cb": [
+            {"label": "Smoked Cannabis", "type": ["Joints", "Blunts", "Bowls", "Bongs"], "units": ["joints", "blunts", "bowls", "bongs", "grams", "milligrams", "ounces", "hits"]},
+            {"label": "Vaped Cannabis", "type": ["Vape pen"], "units": ["hits"]},
+            {"label": "Spliffs", "alt": "Cannabis/Nicotine Joints", "units": ["spliffs", "grams", "milligrams" ,"hits"]},
+            {"label": "Oral Cannabis", "type": ["Edibles", "Infused Non-Alcoholic Drinks"], "units": ["grams", "milligrams", "drinks"]},
+            {"label": "Cannabis-Infused Alcohol", "units": ["standard drinks"]},
+            {"label": "Synthetic Cannabis", "alt": "K2", "units": ["grams", "milligrams", "ounces"]},
+            {"label": "MJ Concentrates", "units": ["milligrams"]},
+            {"label": "Tincture", "units": ["milliliters", "drops"]},
+            {"label": "Topical", "units": ["grams", "milligrams", "percent"]},
+            {"label": "Other Cannabis", "note": "Substance Name"}
+        ],
+        "nic": [
+            {"label": "Smoked Tobacco", "type": ["Cigarettes", "Cigars", "Pipes", "Cigarillos"], "units": ["cigarettes", "cigars", "pipes", "cigarillos", "hits"]},
+            {"label": "E-Cigarettes", "units": ["hits"]},
+            {"label": "Hookah", "units": ["hits"]},
+            {"label": "Smokeless Tobacco", "alt:": "Chewing Tobacco, Zyns, Snuff", "type": ["Chewing Tobacco", "Nicotine Pouches", "Snuff"], "units": ["milligrams", "pinches"]},
+            {"label": "Other Nicotine", "note": "Substance Name"}
+        ],
+        "stim": [
+            {"label": "Stimulant Medications", "type": ["Ritalin/Concerta", "Adderall", "Vyvanse"], "units": ["tablets", "milligrams"]},
+            {"label": "Methamphetamine", "type": ["Powder/Speed", "Ice/Crystal", "Pills", "Base"], "units": ["grams", "points"]},
+            {"label": "Other Stimulant", "note": "Substance Name"}
+        ],
+        "coc": [
+            {"label": "Cocaine", "type": ["Crack", "Powder"], "units": ["grams", "lines"]}
+        ],
+        "opi": [
+            {"label": "Heroin", "type": ["Injected", "Snorted", "Smoked"], "units": ["caps", "grams"]},
+            {"label": "Fentanyl", "type": ["Injected", "Snorted", "Smoked", "Oral"], "units": ["micrograms"]},
+            {"label": "Opioid Medications", "type": ["Codeine", "OxyContin", "Vicodin", "Percocet", "other"], "units": ["tablets", "milligrams"], "note": "Substance Name (Not Specified Above)"},
+            {"label": "Lean", "alt": "Codeine/Alcohol Drink", "units": ["milligrams", "drinks"]},
+            {"label": "Other Opioid", "note": "Substance Name"}
+        ],
+        "hall": [
+            {"label": "LSD", "alt": "Acid", "units": ["micrograms", "tablets"]},
+            {"label": "Psilocybin", "alt": "Mushrooms", "units": ["grams", "mushrooms"]},
+            {"label": "MDMA", "alt": "Ecstasy, Molly", "units": ["milligrams","tablets"]},
+            {"label": "Mescaline", "alt": "Peyote", "units": ["milligrams","tablets", "drinks"]},
+            {"label": "Other Hallucinogen", "note": "Substance Name"}
+        ],
+        "diss": [
+            {"label": "Ketamine", "type": ["Oral", "Snorted", "Injected"], "units": ["milligrams", "bumps", "lines"]},
+            {"label": "PCP", "type": ["Injected", "Snorted", "Smoked", "Oral"], "units": ["milligrams", "tablets"]},
+            {"label": "Other Dissociative", "note": "Substance Name"}
+        ],
+        "inh": [
+            {"label": "Nitrous Oxide", "alt": "Whippits", "units": ["cartridges"]},
+            {"label": "Amyl Nitrate", "alt": "Poppers", "units": ["bottles"]},
+            {"label": "Aerosols", "type": ["Hairspray", "Spray Paint"]},
+            {"label": "Solvents", "type": ["Glue", "Paint Thinner"]},
+            {"label": "Other Inhalant", "note": "Substance Name"}
+        ],
+        "sdh": [
+            {"label": "Benzodiazepines", "alt": "Benzos", "type": ["Xanax", "Valium", "Ativan", "Klonopin", "Rohypnol"], "units": ["milligrams", "tablets"]},
+            {"label": "Barbiturates", "type": ["Phenobarbital", "Butalbital", "Secobarbital", "Pentobarbital"], "units": ["milligrams", "tablets"]},
+            {"label": "Sleeping pills", "alt": "Z Drugs", "type": ["Ambien", "Lunesta", "Sonata"], "units": ["milligrams", "tablets"]},
+            {"label": "GHB", "units": ["grams", "caps"]},
+            {"label": "Quaaludes", "units": ["milligrams", "tablets"]},
+            {"label": "Other Sedative/Hypnotic/Anxiolytic", "note": "Substance Name"}
+        ],
+        "misc": [
+            {"label": "Dextromethorphan", "alt": "DXM, cough syrup", "units": ["milligrams"]},
+            {"label": "Anabolic steroids", "type": ["Injected", "Oral", "Topical"], "units": ["units", "tablets"]},
+            {"label": "Other Substance", "note": "Substance Name"}
+        ]
+    }
+}
